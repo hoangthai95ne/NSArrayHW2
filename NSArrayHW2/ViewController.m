@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "NSArray+Extend.h"
 
 @interface ViewController ()
 
@@ -16,12 +17,14 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    NSArray* array = @[@"1", @"2", @"3", @"4", @"1", @"1"];
+    NSArray* result = [array KhongTrungLap:array];
+    
+    for (NSString* temp in result) {
+        NSLog(@"%@   ",temp);
+    }
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
 
 @end

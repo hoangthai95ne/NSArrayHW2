@@ -15,6 +15,7 @@
 		AB811EEB1C211DB9005A7DBD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB811EE91C211DB9005A7DBD /* LaunchScreen.storyboard */; };
 		AB811EF61C211DB9005A7DBD /* NSArrayHW2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = AB811EF51C211DB9005A7DBD /* NSArrayHW2Tests.m */; };
 		AB811F011C211DB9005A7DBD /* NSArrayHW2UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AB811F001C211DB9005A7DBD /* NSArrayHW2UITests.m */; };
+		ABB3480A1C21205C00F45132 /* NSArray+Extend.m in Sources */ = {isa = PBXBuildFile; fileRef = ABB348091C21205C00F45132 /* NSArray+Extend.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		AB811EFC1C211DB9005A7DBD /* NSArrayHW2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NSArrayHW2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB811F001C211DB9005A7DBD /* NSArrayHW2UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSArrayHW2UITests.m; sourceTree = "<group>"; };
 		AB811F021C211DB9005A7DBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABB348081C21205C00F45132 /* NSArray+Extend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Extend.h"; sourceTree = "<group>"; };
+		ABB348091C21205C00F45132 /* NSArray+Extend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Extend.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				AB811EE91C211DB9005A7DBD /* LaunchScreen.storyboard */,
 				AB811EEC1C211DB9005A7DBD /* Info.plist */,
 				AB811EDB1C211DB9005A7DBD /* Supporting Files */,
+				ABB348081C21205C00F45132 /* NSArray+Extend.h */,
+				ABB348091C21205C00F45132 /* NSArray+Extend.m */,
 			);
 			path = NSArrayHW2;
 			sourceTree = "<group>";
@@ -273,6 +278,7 @@
 				AB811EE31C211DB9005A7DBD /* ViewController.m in Sources */,
 				AB811EE01C211DB9005A7DBD /* AppDelegate.m in Sources */,
 				AB811EDD1C211DB9005A7DBD /* main.m in Sources */,
+				ABB3480A1C21205C00F45132 /* NSArray+Extend.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -496,6 +502,7 @@
 				AB811F071C211DB9005A7DBD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AB811F081C211DB9005A7DBD /* Build configuration list for PBXNativeTarget "NSArrayHW2Tests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +511,7 @@
 				AB811F0A1C211DB9005A7DBD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AB811F0B1C211DB9005A7DBD /* Build configuration list for PBXNativeTarget "NSArrayHW2UITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +520,7 @@
 				AB811F0D1C211DB9005A7DBD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
